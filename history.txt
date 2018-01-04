@@ -1,0 +1,22 @@
+    1  git status
+    2  cd master
+    3  git init
+    4  git remote add origin https://github.com/bhavin-bacancy/Bhavin-bacancy.github.io.git
+    5  cat > profile.txt
+    6  git add profile.txt
+    7  git commit -m "profile.txt added"
+    8  git push origin master
+    9  git checkout -b bhavin
+   10  git add .
+   11  git status
+   12  git commit -m "All commited"
+   13  git push origin bhavin
+   14  ls
+   15  git config --local user.name "bhavin-bacancy"
+   16  git config --local user.email "bhavin.modi@bacancytechnology.com"
+   17  git rm profile.txt
+   18  git reset HEAD profile.txt
+   19  git add .
+   20  git commit -m "profile.txt deleted from bhavin"
+   21  git push origin bhavin
+   22  history > history.txt
